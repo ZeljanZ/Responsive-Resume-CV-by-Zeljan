@@ -1,0 +1,52 @@
+/*========== BASE ==========*/ 
+*,::before,::after{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*========== Classes modified to reduce size and print on A4 sheet ==========*/
+body{
+    margin: 0 0 $header-height 0;
+    padding: 0;
+    font-family: $body-font;
+    font-size: $normal-font-size;
+    background-color: $body-color;
+    color: $text-color;
+}
+h1,h2,h3,ul,p{
+    margin: 0;
+}
+h1,h2,h3{
+    color: $title-color;
+    font-weight: $font-medium;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*========== CLASS CSS ==========*/
+.section{
+    padding: 1.5rem 0;
+}
+.section-title{
+    font-size: $h2-font-size;
+    color: $title-color;
+    font-weight: $font-semi-bold;
+    text-transform: uppercase;
+    letter-spacing: .35rem;
+    text-align: center;
+    margin-bottom: $mb-3;
+}

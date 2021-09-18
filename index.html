@@ -8,14 +8,64 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
         <!--========== CSS ==========-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="css/styles.css">
 
         <title>Responsive resume cv</title>
     </head>
     <body>
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
-            
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Zeljan</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon'></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experiance" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>Experiance
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon'></i>Certificates
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon'></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
         </header>
 
         <main class="l-main bd-container">
@@ -24,9 +74,35 @@
                 <div class="resume__left">
                     <!--========== HOME ==========-->
                     <section class="home" id="home">
-                        
+                        <div class="home__container section bg-grid">
+                            <div class="home__data bg-grid">
+                                <img src="assets/img/perfil.jpg" alt="" class="home__img">
+
+                                <h1 class="home__title">ZELJAN <b>ZIVKOV</b></h1>
+                                <h3 class="home__profession">Web Developer</h3>
+
+                                <!-- Button to download your CV saved in the pdf folder . Available for desktop. -->
+
+                                <div>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bg-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon'></i>Av. Skadarska #123 Vrsac - Serbia
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon'></i>fearpally@gmail.com
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon'></i>+38160030010 
+                                </span>
+                            </div>
+                        </div>
                         <!-- Theme change button -->
-                        
     
                         <!-- Button to generate and download the pdf. Available for desktop. -->
 
