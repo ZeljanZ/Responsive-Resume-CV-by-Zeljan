@@ -1,0 +1,58 @@
+/*========== HOME ==========*/
+.home{
+    position: relative;
+
+    .home__container{
+        gap: 3rem;
+
+        .home__data{
+            gap: .5rem;
+            text-align: center;
+
+            .home__img{
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                justify-self: center;
+                margin-bottom: $mb-1;
+            }
+            .home__title{
+                font-size: $h1-font-size;
+            }
+            .home__profession{
+                font-size: $normal-font-size;
+                margin-bottom: $mb-1;
+            }
+
+            .home__button-movil{
+                display: inline-block;
+                border:  2px solid $text-color;
+                color: $title-color;
+                padding: 1rem 2rem;
+                border-radius: .25rem;
+                transition: .3s;
+                font-weight: $font-medium;
+                margin-top: $mb-3;
+
+                &:hover{
+                    background-color: $text-color;
+                    color: $container-color;
+                }
+            }
+        }
+        .home__address{
+            gap: 1rem;
+
+            .home__information{
+                display: flex;
+                align-items: center;
+                font-size: $small-font-size;
+
+                .home__icon{
+                    font-size: 1.2rem;
+                    margin-right: .25rem;
+                }
+            }
+        }
+    }
+}

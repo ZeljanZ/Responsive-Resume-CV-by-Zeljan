@@ -1,0 +1,21 @@
+/*========== SOCIAL ==========*/
+.social__container{
+    grid-template-columns: max-content;
+    gap: 1rem;
+
+    .social__link{
+        display: inline-flex;
+        align-items: center;
+        font-size: $small-font-size;
+        color: $text-color;
+        
+        &:hover{
+            color: $title-color;
+        }
+        .social__icon{
+            font-size: 1.2rem;
+            margin-right: .25rem;
+            margin-left: 1rem;
+        }   
+    }
+}

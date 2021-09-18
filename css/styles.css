@@ -68,7 +68,8 @@ img {
 .bg-grid {
   display: -ms-grid;
   display: grid;
-  gap: 1.5rem; }
+  gap: 1.5rem;
+  padding: .25rem 1rem; }
 
 .l-header {
   width: 100%;
@@ -146,3 +147,139 @@ img {
     bottom: 3rem; }
   .nav .active-link {
     color: #0B0A0A; }
+
+/*========== SECTION ==========*/
+/*========== HOME ==========*/
+.home {
+  position: relative; }
+  .home .home__container {
+    gap: 3rem; }
+    .home .home__container .home__data {
+      gap: .5rem;
+      text-align: center; }
+      .home .home__container .home__data .home__img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        -ms-grid-column-align: center;
+            justify-self: center;
+        margin-bottom: 0.5rem; }
+      .home .home__container .home__data .home__title {
+        font-size: 1.5rem; }
+      .home .home__container .home__data .home__profession {
+        font-size: 0.938rem;
+        margin-bottom: 0.5rem; }
+      .home .home__container .home__data .home__button-movil {
+        display: inline-block;
+        border: 2px solid #403A3A;
+        color: #0B0A0A;
+        padding: 1rem 2rem;
+        border-radius: .25rem;
+        -webkit-transition: .3s;
+        transition: .3s;
+        font-weight: 500;
+        margin-top: 1.5rem; }
+        .home .home__container .home__data .home__button-movil:hover {
+          background-color: #403A3A;
+          color: #FAFAFA; }
+    .home .home__container .home__address {
+      gap: 1rem; }
+      .home .home__container .home__address .home__information {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        font-size: 0.875rem; }
+        .home .home__container .home__address .home__information .home__icon {
+          font-size: 1.2rem;
+          margin-right: .25rem; }
+
+/*========== SOCIAL ==========*/
+.social__container {
+  -ms-grid-columns: max-content;
+      grid-template-columns: -webkit-max-content;
+      grid-template-columns: max-content;
+  gap: 1rem; }
+  .social__container .social__link {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 0.875rem;
+    color: #403A3A; }
+    .social__container .social__link:hover {
+      color: #0B0A0A; }
+    .social__container .social__link .social__icon {
+      font-size: 1.2rem;
+      margin-right: .25rem;
+      margin-left: 1rem; }
+
+/*========== PROFILE ==========*/
+.profile__description {
+  text-align: center;
+  padding: .25rem 1.25rem;
+  color: #403A3A; }
+
+/*========== EDUCATION ==========*/
+.education-title {
+  text-align: center;
+  margin-bottom: 1.5rem; }
+
+.education__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .education__content .education__time {
+    padding-left: 1rem; }
+    .education__content .education__time .education__rounder {
+      position: relative;
+      display: block;
+      width: 16px;
+      height: 16px;
+      background-color: #707070;
+      border-radius: 50%;
+      margin-top: .55rem; }
+    .education__content .education__time .education__line {
+      display: block;
+      width: 2px;
+      height: 110%;
+      background-color: #707070;
+      -webkit-transform: translate(7px, 0);
+              transform: translate(7px, 0); }
+  .education__content .education__data {
+    gap: .5rem; }
+    .education__content .education__data .education__title {
+      font-size: 1rem; }
+    .education__content .education__data .education__studies {
+      font-size: 0.875rem;
+      color: #0B0A0A; }
+    .education__content .education__data .education__year {
+      font-size: 0.813rem; }
+
+/*========== SKILLS ==========*/
+.skills__container {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: .25rem 2rem; }
+  .skills__container .skills__data {
+    gap: 0; }
+    .skills__container .skills__data .skills__name {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 1.5rem;
+      color: #403A3A; }
+      .skills__container .skills__data .skills__name .skills_circle {
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        background-color: #403A3A;
+        border-radius: 50%;
+        margin-right: .75rem; }
