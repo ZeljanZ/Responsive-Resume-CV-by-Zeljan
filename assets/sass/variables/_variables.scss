@@ -32,3 +32,33 @@
     /*========== z index ==========*/
     $z-tooltip: 10;
     $z-fixed: 100;
+
+    // Breakpoints
+    $xl: 1440px;
+    $lg: 968px;
+    $md: 768px;
+    $sm: 575px;
+    $esm: 320px;
+
+    @media screen and (max-width:$md) {
+        
+    }
+    * :root {
+        /*========== Colors ==========*/
+        --title-color: #0B0A0A;
+        --text-color: #403A3A;
+        --text-color-light: #707070;
+        --container-color: #FAFAFA;
+        --container-color-alt: #F0EFEF;
+        --body-color: #FCFCFC;
+        }
+
+    body.dark-theme{
+        /*========== Variables Dark theme ==========*/
+        --title-color: #f2f2f2;
+        --text-color: #bfbfbf;
+        --text-color-light: #707070;
+        --container-color: #212121;
+        --container-color-alt: #181616;
+        --body-color: #2b2b2b;
+        }

@@ -14,8 +14,8 @@
             left: 0;
             width: 100%;
             padding: 2rem 1.5rem;
-            background-color: $body-color;
-            box-shadow: 0 1px 4px rgba(0,0,0,.1);
+            background-color: var(--body-color);
+            box-shadow: 0 1px 4px rgba(0,0,0, .1);
             border-radius: 1rem 1rem 0 0;
             z-index: $z-fixed;
             transition: .3s;
@@ -23,7 +23,7 @@
     }
     .nav__logo, 
     .nav__toggle{
-        color: $title-color;
+        color: var(--text-color);
         font-weight: $font-medium;
     }
     .nav__toggle{
@@ -42,11 +42,11 @@
         display: flex;
         flex-direction: column;
         font-size: $smaller-font-size;
-        color: $text-color-light;
+        color: var(--text-color-light);
         font-weight: $font-medium;
 
         &:hover{
-            color: $title-color;
+            color: var(--text-color);
         }
     }
     .nav__icon{
@@ -59,6 +59,6 @@
     }
     /* Active Menu Link*/
     .active-link{
-        color: $title-color;
+        color: var(--text-color);
     }
 }

@@ -26,8 +26,8 @@
 
             .home__button-movil{
                 display: inline-block;
-                border:  2px solid $text-color;
-                color: $title-color;
+                border:  2px solid var(--text-color);
+                color: var(--title-color);
                 padding: 1rem 2rem;
                 border-radius: .25rem;
                 transition: .3s;
@@ -35,8 +35,8 @@
                 margin-top: $mb-3;
 
                 &:hover{
-                    background-color: $text-color;
-                    color: $container-color;
+                    background-color: var(--text-color);
+                    color: var(--container-color);
                 }
             }
         }

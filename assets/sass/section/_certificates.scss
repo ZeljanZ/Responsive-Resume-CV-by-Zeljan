@@ -2,8 +2,8 @@
 .certificate__title{
     font-size: $h3-font-size;
     margin-bottom: $mb-1;
-    color: $title-color;
+    color: var(--title-color);
 }
 .certificate__description{
-    color: $title-color;
+    color: var(--title-color);
 }

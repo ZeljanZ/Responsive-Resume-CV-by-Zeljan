@@ -7,10 +7,10 @@
         display: inline-flex;
         align-items: center;
         font-size: $small-font-size;
-        color: $text-color;
+        color: var(--text-color);
         
         &:hover{
-            color: $title-color;
+            color: var(--title-color);
         }
         .social__icon{
             font-size: 1.2rem;

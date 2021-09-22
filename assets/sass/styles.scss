@@ -2,6 +2,7 @@
 @import 'variables/variables';
 /*========== BASE ==========*/
 @import 'base/reset';
+@import 'features/dark-light-btn';
 /*========== LAYOUT ==========*/
 @import 'layout/layout';
 @import 'layout/header';
@@ -13,5 +14,8 @@
 @import 'section/skills-languages';
 @import 'section/certificates';
 @import 'section/references';
-@import 'section/interests'
+@import 'section/interests-scroll';
+/*========== MEDIA QUERIES ==========*/
+@import 'layout/mediaqueries';
+
 
