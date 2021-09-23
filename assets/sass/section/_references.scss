@@ -7,10 +7,10 @@
     }
     .references__subtitle,
     .references__contact{
-        font-size: $smaller-font-size;
+        font-size: var(--smaller-font-size);
         color: var(--text-color);
     }
     .references__title{
-        font-size: $h3-font-size;
+        font-size: var(--h3-font-size);
     }
 }

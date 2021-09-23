@@ -1,6 +1,6 @@
 /*========== CERTIFICATES ==========*/
 .certificate__title{
-    font-size: $h3-font-size;
+    font-size: var(--h3-font-size);
     margin-bottom: $mb-1;
     color: var(--title-color);
 }

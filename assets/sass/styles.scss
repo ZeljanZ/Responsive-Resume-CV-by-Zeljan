@@ -1,8 +1,9 @@
-/*===== VARIABLES CSS =====*/
+/*===== VARIABLES CSS and FEATURERS =====*/
 @import 'variables/variables';
+@import 'features/dark-light-btn';
+@import 'features/generate-pdf-btn';
 /*========== BASE ==========*/
 @import 'base/reset';
-@import 'features/dark-light-btn';
 /*========== LAYOUT ==========*/
 @import 'layout/layout';
 @import 'layout/header';

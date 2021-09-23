@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem 1.5rem;
-
+    background-color: var(--body-color);
 
     @media (max-width:968px) {
         .nav__menu{
@@ -41,7 +41,7 @@
     .nav__link{
         display: flex;
         flex-direction: column;
-        font-size: $smaller-font-size;
+        font-size: var(--smaller-font-size);
         color: var(--text-color-light);
         font-weight: $font-medium;
 

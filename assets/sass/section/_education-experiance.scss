@@ -35,16 +35,16 @@
 
         .education__title,
         .experiance__titile{
-            font-size: $h3-font-size;
+            font-size: var(--h3-font-size);
         }
         .education__studies,
         .experiance__company{
-            font-size: $small-font-size;
+            font-size: var(--small-font-size);
             color: var(--title-color);
         }
         .education__year,
         .experiance__descrription{
-            font-size: $smaller-font-size;
+            font-size: var(--smaller-font-size);
         }
     }
 }

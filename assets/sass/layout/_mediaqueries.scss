@@ -1,7 +1,6 @@
 /*========== MEDIA QUERIES ==========*/
 
 
-
 /* Classes modified for large screen size */
 @media screen and (min-width:$lg) {
     body{
@@ -31,7 +30,7 @@
     .resume__right{
         padding: 0 1.5rem;
     }
-
+    
     .section-title{
         padding: 0 1rem;
     }
@@ -57,11 +56,19 @@
         grid-template-columns: repeat(4, max-content);
         column-gap: 3.5rem;
     }
+    .generate-pdf{
+        display: inline-block!important;
+    }
 }
 /* For small devices, menu two columns */
 @media screen and (max-width: $esm) {
     .nav__list{
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem .5rem;
+    }
+}
+@media screen and (min-width:$xl){
+    body{
+        margin: 3rem 10rem;
     }
 }

@@ -2,11 +2,12 @@
 .social__container{
     grid-template-columns: max-content;
     gap: 1rem;
+    margin-bottom: 15px;
 
     .social__link{
         display: inline-flex;
         align-items: center;
-        font-size: $small-font-size;
+        font-size: var(--small-font-size);
         color: var(--text-color);
         
         &:hover{
