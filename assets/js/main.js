@@ -33,7 +33,7 @@ function scrollActive(){
     sections.forEach(current =>{
         const sectionHeight = current.offsetHeight
         const sectionTop = current.offsetTop - 50;
-        sectionId = current.getAttribute('id')
+        const sectionId = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
@@ -49,7 +49,10 @@ window.addEventListener('scroll', scrollActive)
 function scrollTop(){
     const scrollTop = document.getElementById('scroll-top');
     // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
-    if(this.scrollY >= 200) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
+    if(this.scrollY >= 300) 
+        scrollTop.classList.add('show-scroll'); 
+    else 
+        scrollTop.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollTop)
 
@@ -96,10 +99,6 @@ function removeScale(){
 }
 
 /*==================== GENERATE PDF ====================*/ 
-// PDF generated area
-let areaCv = document.getElementById('area-cv')
-
-let resumeButton = document.getElementById('resume-button')
 
 // Html2pdf options
 let opt = {  
@@ -110,12 +109,17 @@ let opt = {
     jsPDF:        { format: 'a4', orientation: 'portrait' }
 };
 
+// PDF generated area
+let areaCv = document.getElementById('area-cv')
+
 // Function to call areaCv and Html2Pdf options 
 function generateResume(){
     html2pdf(areaCv, opt)
 }
 
 // When the button is clicked, it executes the three functions
+let resumeButton = document.getElementById('resume-button')
+
 resumeButton.addEventListener('click', () =>{
     // 1. The class .scale-cv is added to the body, where it reduces the size of the elements
     scalaCV()
@@ -124,4 +128,3 @@ resumeButton.addEventListener('click', () =>{
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
     setTimeout(removeScale,5000)
 })
-    

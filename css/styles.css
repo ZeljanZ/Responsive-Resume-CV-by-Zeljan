@@ -106,9 +106,6 @@ html {
 .scale-cv .social__container {
   gap: 0.75rem !important; }
 
-.scale-cv .home__address {
-  margin-top: -50px; }
-
 .scale-cv .social__container {
   padding: 0.35rem 0 !important; }
 
@@ -255,8 +252,8 @@ img {
       width: 100%;
       padding: 2rem 1.5rem;
       background-color: var(--body-color);
-      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-              box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+              box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
       border-radius: 1rem 1rem 0 0;
       z-index: 100;
       -webkit-transition: .3s;
@@ -352,7 +349,7 @@ img {
       grid-template-columns: -webkit-max-content;
       grid-template-columns: max-content;
   gap: 1rem;
-  margin-bottom: 15px; }
+  margin-bottom: 1rem; }
   .social__container .social__link {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -557,8 +554,8 @@ img {
   background-color: var(--container-color-alt);
   border-radius: .5rem;
   z-index: 10;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .5s;
+  transition: .5s;
   visibility: hidden; }
   .scrolltop .scrolltop__icon {
     font-size: 1.5rem;

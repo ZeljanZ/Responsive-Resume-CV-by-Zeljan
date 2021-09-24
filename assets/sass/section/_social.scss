@@ -2,7 +2,7 @@
 .social__container{
     grid-template-columns: max-content;
     gap: 1rem;
-    margin-bottom: 15px;
+    margin-bottom: $mb-2;
 
     .social__link{
         display: inline-flex;

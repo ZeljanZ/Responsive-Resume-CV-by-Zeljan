@@ -15,7 +15,7 @@
             width: 100%;
             padding: 2rem 1.5rem;
             background-color: var(--body-color);
-            box-shadow: 0 1px 4px rgba(0,0,0, .1);
+            box-shadow: 0 1px 4px rgba(0,0,0, .4);
             border-radius: 1rem 1rem 0 0;
             z-index: $z-fixed;
             transition: .3s;
@@ -40,7 +40,7 @@
     }
     .nav__link{
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         font-size: var(--smaller-font-size);
         color: var(--text-color-light);
         font-weight: $font-medium;
