@@ -87,7 +87,6 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-
 /*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/ 
 function scalaCV(){
     document.body.classList.add('scale-cv')
